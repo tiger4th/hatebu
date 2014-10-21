@@ -1,4 +1,5 @@
 hatebu
 ======
 
-はてぶ新聞
+はてぶ新聞  
+http://tiger4th.com/hatebu/
