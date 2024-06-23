@@ -21,7 +21,9 @@
     <p class="large bold"><?php echo $day[date("w")]; ?>曜日</p>
   </a>
 </div>
-<br /><br />
+<br />
+<input type="hidden" id="vertical" value="1">
+<a href="javascript:;" onclick="rotate('button'); return false;"><img src="./image/lotate.gif" width="80" height="20" class="lotate"></a>
 
 <?php if($device==='pc'){ ?>
 <script type="text/javascript" charset="utf-8" src="http://tenki.jp/blog/script/parts/forecast/?type=top&color=0&size=small"></script>
@@ -127,8 +129,6 @@
 
 <input type="hidden" id="state_<?php echo $page; ?>" value="0">
 <input type="hidden" id="code_<?php echo $page; ?>" value="<?php echo $key; ?>">
-
-
 
 <?php }else{ ?>
 <div id="center">
