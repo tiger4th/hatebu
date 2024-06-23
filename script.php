@@ -12,7 +12,7 @@ var params ={
 'rotate_8' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
 'rotate_9' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
 'rotate_10':{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_11':{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
+// 'rotate_11':{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
 'rotate_99':{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':true, 'recovery':true,'showcredit':false,'bar':false,},
 }
 

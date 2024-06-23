@@ -12,7 +12,7 @@ if ((strpos($ua,'iPhone')!==false)||(strpos($ua,'iPod')!==false)||(strpos($ua,'A
 }
 
 $list = array(
-    'topics',
+    // 'topics',
     'hotentry',
     'general',
     'social',

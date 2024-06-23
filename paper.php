@@ -135,7 +135,7 @@
 </p>
 <?php } ?>
 <br />
-<iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=tiger4th-22&o=9&p=16&l=bn1&mode=books-jp&browse=202188011&fc1=000000&lt1=_blank&lc1=3366FF&bg1=EEEEEE&f=ifr" marginwidth="0" marginheight="0" width="468" height="336" border="0" frameborder="0" style="border:none;" scrolling="no"></iframe>
+<!-- <iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=tiger4th-22&o=9&p=16&l=bn1&mode=books-jp&browse=202188011&fc1=000000&lt1=_blank&lc1=3366FF&bg1=EEEEEE&f=ifr" marginwidth="0" marginheight="0" width="468" height="336" border="0" frameborder="0" style="border:none;" scrolling="no"></iframe> -->
 </div>
 </div>
 
