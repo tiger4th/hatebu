@@ -73,7 +73,7 @@
 
 <?php if($device!=='sp'){ ?>
 <span class="right">
-<a href="http://tiger4th.com/hatebu_ex/">速報版</a><a href="http://tiger4th.com/" target="_blank">リンク</a>
+<a href="http://tiger4th.com/" target="_blank">リンク</a>
 </span>
 <?php } ?>
 </div>
@@ -91,7 +91,6 @@
 <td><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="ja">ツイート</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></td>
 <td><div class="fb-like" data-href="http://tiger4th.com/hatebu/" data-send="false" data-layout="button_count" data-width="120" data-show-faces="false"></div></td>
 <td><div data-plugins-type="mixi-favorite" data-service-key="cc721d7d4a13e5e980e050259d640ad0496640cc" data-size="medium" data-href="http://tiger4th.com/hatebu/" data-show-faces="false" data-show-count="true" data-show-comment="true" data-width="120"></div><script type="text/javascript">(function(d) {var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//static.mixi.jp/js/plugins.js#lang=ja';d.getElementsByTagName('head')[0].appendChild(s);})(document);</script></td>
-<td><a href="http://tiger4th.com/hatebu_ex/">速報版</a></td>
 <td><a href="http://tiger4th.com/" target="_blank">リンク</a></td>
 </tr>
 </table>
