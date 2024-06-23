@@ -113,7 +113,7 @@
 <?php } ?>
 <!-- /page -->
 
-<?php if($device!=='sp'){ ?>
+<?php /* if($device!=='sp'){ ?>
 <!-- ad -->
 <div id="ad">
 <div><input id="ad_close" type="button" onclick="document.getElementById('ad').style.display='none'" value="close"/></div>
@@ -122,7 +122,7 @@
 <!-- admax -->
 </div>
 <!-- /ad -->
-<?php } ?>
+<?php } */ ?>
 
 </body>
 </html>

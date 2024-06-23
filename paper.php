@@ -26,14 +26,26 @@
 <a href="javascript:;" onclick="rotate('button'); return false;"><img src="./image/lotate.gif" width="80" height="20" class="lotate"></a>
 
 <?php if($device==='pc'){ ?>
-<script type="text/javascript" charset="utf-8" src="http://tenki.jp/blog/script/parts/forecast/?type=top&color=0&size=small"></script>
+<br /><br /><br />
+<iframe src="https://www.sunny-spot.net/get_fcst/parts_fcst.php?ID=4410&CL=BLACK" width="160" height="370" hspace="0" vspace="0" marginheight="0" marginwidth="0" frameborder="0" scrolling=no></iframe>
 <br />
 <?php } ?>
 <br />
 
-<!-- admax -->
-<script type="text/javascript" src="http://adm.shinobi.jp/s/905a306347aed83c2e9e485b2169d771"></script>
-<!-- admax -->
+<!-- 広告 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8381218834058340"
+     crossorigin="anonymous"></script>
+<!-- hatebu右 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8381218834058340"
+     data-ad-slot="6455781768"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- 広告 -->
 <br />
 <!--
 <SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.co.jp/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822/JP/tiger4th-22/8006/3d3ced38-8d14-4282-88d1-5e6834674e25"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.co.jp/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Ftiger4th-22%2F8006%2F3d3ced38-8d14-4282-88d1-5e6834674e25&Operation=NoScript">Amazon.co.jp ウィジェット</A></NOSCRIPT>
