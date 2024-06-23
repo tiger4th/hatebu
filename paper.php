@@ -14,13 +14,14 @@
 <div id="right">
 <h1><img src="./image/logo.gif" alt="はてぶ新聞"></h1>
 <br /><br />
-<?php if(isset($date)){ ?><a href="<?php echo $wiki; ?>" target="_blank"><?php } ?>
-<p>令和<?php echo (date("Y")-2018); ?>年（<?php echo date("Y年");?>）</p>
-<p class="bold"><span class="xx-large"><?php echo date("n"); ?></span><span class="large">月</span> <span class="xx-large"><?php echo date("j"); ?></span><span class="large">日</span></p>
-<p class="large bold"><?php echo $day[date("w")]; ?>曜日</p>
-<p><?php if(isset($date)){ ?><?php echo $date; ?><?php } ?></p>
-<?php if(isset($date)){ ?></a><?php } ?>
-<br />
+<div class="date">
+  <a href="<?php echo $wiki; ?>" target="_blank">
+    <p>令和<?php echo date("Y") - 2018; ?>年（<?php echo date("Y年"); ?>）</p>
+    <p class="bold"><span class="xx-large"><?php echo date("n"); ?></span><span class="large">月</span> <span class="xx-large"><?php echo date("j"); ?></span><span class="large">日</span></p>
+    <p class="large bold"><?php echo $day[date("w")]; ?>曜日</p>
+  </a>
+</div>
+<br /><br />
 
 <?php if($device==='pc'){ ?>
 <script type="text/javascript" charset="utf-8" src="http://tenki.jp/blog/script/parts/forecast/?type=top&color=0&size=small"></script>

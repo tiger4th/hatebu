@@ -125,28 +125,5 @@ foreach ($list as $category) {
 	}
 }
 
-
-// 今日は何の日
-// $xml = file_get_contents('http://www.mizunotomoaki.com/wikipedia_daytopic/api.cgi/'.date('m/d'));
-// $feed = simplexml_load_string($xml);
-
-// if (count($feed->kinenbi->item) > 0) {
-// 	$i = 0;
-// 	$wiki = '';
-// 	while($i <= 10){
-// 		$rand = mt_rand(0, count($feed->kinenbi->item)-1);
-// 		$date = explode('（', $feed->kinenbi->item[$rand]);
-// 		$date = explode('(', $date[0]);
-// 		$date = explode('[', $date[0]);
-		
-// 		if (mb_strlen($date[0], 'UTF-8') <= 15) {
-// 			$date = $date[0];
-// 			$wiki = $feed->wikipedia;
-// 			break;
-// 		}
-		
-// 		$date = '';
-// 		$i++;
-// 	}
-// }
+$wiki = 'https://ja.wikipedia.org/wiki/' . date("n月j日");
 ?> 
